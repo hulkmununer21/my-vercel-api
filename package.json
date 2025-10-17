@@ -1,0 +1,32 @@
+{
+  "name": "my-vercel-api",
+  "version": "1.0.0",
+  "description": "A Vercel API project for managing properties, applications, and related services.",
+  "main": "api/health.js",
+  "scripts": {
+    "start": "node api/health.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/my-vercel-api.git"
+  },
+  "keywords": [
+    "vercel",
+    "api",
+    "properties",
+    "management"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
